@@ -7,4 +7,4 @@ jobs:
     steps:
       - name: execucao
         run: |
-          echo: "Valor XPTO"
+          echo "Valor XPTO"
