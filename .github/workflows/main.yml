@@ -1,0 +1,10 @@
+name: COmo usar Env Vars
+on:
+  workflow_dispatch
+jobs:
+  variaves:
+    runs-on: ubuntu-latest
+    steps:
+      - name: execucao
+        run: |
+          echo: "Valor XPTO"
